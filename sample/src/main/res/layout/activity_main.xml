@@ -10,8 +10,21 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="joneslee.android.com.bootpager.MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/normal_btn"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:text="Normal"/>
+
+    <Button
+        android:id="@+id/pallaxs_btn"
+        android:layout_below="@+id/normal_btn"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Parallax"/>
 </RelativeLayout>

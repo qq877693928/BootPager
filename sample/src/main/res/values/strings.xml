@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">BootPager</string>
+
+    <string name="hotel_title">Hotels</string>
+    <string name="bank_title">Banks</string>
+    <string name="store_title">Stores</string>
+
+    <string name="hotel_remark">All hotels and hostels are sorted by hospitality rating</string>
+    <string name="bank_remark">We carefully verify all banks before and them into the app</string>
+    <string name="store_remark">All local stores are categorized for your convenience</string>
+
+
 </resources>
